@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    margin: 0;
+  }
+  
+  header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: ;
+  }
+  /* Estilos para el encabezado */
+
+header {
+    background-color: #1c2640;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: purple;
+  }
+
+  /*codigo del blog*/
+
+  .cuerpo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue ;
+  }
+  .cuerpo {
+    font-size: 18px;
+  }
+  article img {
+    max-width: 100%;
+    height: auto;
+  }
+  article h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+
+  }
+  
+  article p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+      
+/* traer como tarea un un ejemplo de una practica de corrupcion de alguna empresa u organizacion a nivel internacional y mi punto de vista ante esto */
+
+  /* Estilos para el pie de página */
+
+footer {
+    background-color: #1c2640;
+    border-top: 1px solid #1c2640;
+    color: #666;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  
+  footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
